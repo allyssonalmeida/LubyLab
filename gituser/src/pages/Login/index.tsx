@@ -35,7 +35,7 @@ function Inicio(){
   return(
     <Form onSubmit={handleSubmit}>
         <img src={Github} alt="logo" />
-        <input required type="text" id="login" inputMode="text" pattern="[a-z]{1,15}" name="login" placeholder="Usuário" value={login} onChange={e => setLogin(e.target.value)} />
+        <input required type="text" id="login" inputMode="text" name="login" placeholder="Usuário" value={login} onChange={e => setLogin(e.target.value)} />
         <button type="submit">Entrar <FiArrowRight /></button>
     </Form>
   )
