@@ -1,5 +1,7 @@
 # Desafiio LubyLab 
 
+[Veja aqui a versão ao vivo](https://luby-lab-allyssonalmeida.vercel.app/)
+
 A aplicação sera uma PWA que funcionará em cima da api do github [Documentação API GITHUB](https://developer.github.com/v3/ 'Api Github'), onde deve existir uma tela de login que o usuário digitará o nickname de um usuário do github, ao buscar esse usuário, ele deve ser redirecionado para uma tela interna onde estará disponível informações gerais do usuário conforme o protótipo, com uma navegação de tabs para **Início**, **Repositórios**, **Seguidores**, **Seguindo**.
 
 ### Protótipo da aplicação
